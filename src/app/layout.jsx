@@ -1,5 +1,5 @@
 import { Outfit } from "next/font/google";
-import '../styles/globals.css';
+import '../app/styles/globals.css';
 import Header from "@/Components/Header";
 import { Footer } from "@/Components/Footer";
 import Head from "next/head";
