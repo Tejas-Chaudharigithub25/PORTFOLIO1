@@ -1,8 +1,9 @@
 import { Outfit } from "next/font/google";
-import '../app/styles/globals.css';
+
+import './styles/globals.css';
 import Header from "@/Components/Header";
 import { Footer } from "@/Components/Footer";
-import Head from "next/head";
+// import Head from "next/head";
 
 const Outfits = Outfit({
   variable: "--font-merriweather",
@@ -23,9 +24,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <Head>
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-      </Head>
+      {/* <Head> */}
+        {/* <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> */}
+      {/* </Head> */}
+      {/*  */}
       <body className={`${Outfits.variable} antialiased`}>
 
         <Header />
