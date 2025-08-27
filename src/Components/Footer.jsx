@@ -22,7 +22,7 @@ export const Footer = () => {
                         <div className='flex flex-col items-center w-full md:w-fit'>
                             <h4 className="text-blue-400 font-bold mb-2 text-3xl">Tejas Chaudhari</h4>
                         </div>
-                        <div className='mx-10'>
+                        <div className='mx-auto'>
                             <h4 className="text-blue-400 border-b-2 mb-1 text-lg">Quick Links</h4>
                             <p className='ms-3 hover:text-blue-400'><Link href="#home">Home</Link></p>
                             <p className='ms-3 hover:text-blue-400'><Link href="#project">Projects</Link></p>
@@ -38,10 +38,10 @@ export const Footer = () => {
                             <p className='ms-3 hover:text-blue-400'><Link href="w-full">Certifications</Link></p>
                             <p className='ms-3 hover:text-blue-400'><Link href="w-full">connect</Link></p>
                         </div> */}
-                        <div className='flex flex-col md:items-center w-full md:w-fit'>
+                        <div className='flex flex-col flex-wrap items-center w-full md:w-fit'>
                             <h4 className="text-blue-400 font-bold mb-2 text-2xl">Contact</h4>
                             <Link href='tel://8275671462' className='hover:text-blue-500'><p>+8275671462</p></Link>
-                            <div className="icons flex md:justify-center item gap-8 mt-5 mx-1 w-full">
+                            <div className="icons flex justify-center item gap-8 mt-5 mx-1 w-full">
                                 <Link href={'https://www.linkedin.com/in/tejas-chaudhari-792113230'}><LuLinkedin className='flex text-blue-400 w-6 h-6 p-0.5 rounded text-sm hover:-translate-y-1 hover:shadow-sm/75 hover:shadow-blue-400 duration-200' /></Link>
                                 <Link href={'https://github.com/Tejas-Chaudharigithub25'}><LuGithub className='flex text-white w-6 h-6 p-0.5 rounded text-sm text- hover:-translate-y-1 hover:shadow-sm/75 hover:shadow-blue-400 duration-200' /></Link>
                                 <Link href={'mailto:tejaschaudhari00001@gmail.com'}><TbBrandGmail className='flex text-red-400 w-6 h-6 p-0.5 rounded text-sm hover:-translate-y-1 hover:shadow-sm/75 hover:shadow-blue-400 duration-200' /></Link>
@@ -49,7 +49,7 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-row justify-around items-center bg-blue-950/30 p-4  space-y-4 sm:space-y-0">
+                <div className="flex flex-row flex-wrap md:flex-nowrap md:justify-around items-center bg-blue-950/30 p-4  space-y-4 sm:space-y-0">
                     {/* Left section: Copyright */}
                     <div className="text-sm md:text-base">
                         © {new Date().toDateString()} Tejas Chaudhari.
