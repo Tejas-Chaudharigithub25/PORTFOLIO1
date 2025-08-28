@@ -42,7 +42,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center gap-5 text-center mb-5" data-aos="fade-up">
-          <Image className='rounded-full shadow-sm active:scale-105 active:shadow-md/80 active:border-4 md:hover:scale-105 md:hover:shadow-md/80 md:hover:border-4 hover:border-blue-400 shadow-blue-400 duration-300' src={Photo} width={230} height={230} alt='about' />
+          <Image className='rounded-full shadow-sm active:scale-105 active:shadow-md/80 active:border-4 active:border-blue-400 md:hover:scale-105 md:hover:shadow-md/80 md:hover:border-4 md:hover:border-blue-400 shadow-blue-400 duration-300' src={Photo} width={230} height={230} alt='about' />
           <p className='md:mx-50 text-lg'>I'm a Tejas Chaudhari passionate about Web Development Profession. With a focus on PHP and MERN, I specialize in building projects that are both functional and impactful.</p>
         </div>
 
