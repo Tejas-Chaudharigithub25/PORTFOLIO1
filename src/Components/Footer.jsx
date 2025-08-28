@@ -49,7 +49,7 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-row flex-wrap md:flex-nowrap md:justify-around items-center bg-blue-950/30 p-4  space-y-4 sm:space-y-0">
+                <div className="flex flex-row flex-wrap md:flex-nowrap justify-center md:justify-around items-center bg-blue-950/30 p-4  space-y-4 sm:space-y-0">
                     {/* Left section: Copyright */}
                     <div className="text-sm md:text-base">
                         © {new Date().toDateString()} Tejas Chaudhari.

@@ -9,13 +9,13 @@ const Contact = () => {
         <h2 className='flex justify-center items-center text-center text-3xl mb-5 w-fit hover:w-50 border-b-4 border-b-blue-500 font-bold'>Connect</h2>
         <div className="flex flex-wrap justify-evenly gap-5 w-full" data-aos="fade-up">
           <div className="first flex flex-col gap-4 items-start my-2 md:p-2 w-140">
-            <div className="card p-4 rounded-md w-full transform hover:-translate-y-1 border border-blue-400/20 shadow-md/30 shadow-blue-400 hover:shadow-md/50 duration-200">
+            <div className="card p-4 rounded-md w-full transform border border-blue-400/20 shadow-md/30 shadow-blue-400 active:-translate-y-1 active:shadow-md/50 md:hover:-translate-y-1 md:hover:shadow-md/50 duration-300">
               <div className='flex gap-5'>
-                <MdOutlineMarkunread className='w-6 h-6 text-blue-400' />
+                <MdOutlineMarkunread className='w-6 h-6 text-blue-400'/>
                 tejaschaudhari00001@gmail.com
               </div>
             </div>
-            <div className="card p-4 rounded-md w-full transform hover:-translate-y-1 border border-blue-400/20 shadow-md/30 shadow-blue-400 hover:shadow-md/50 duration-200">
+            <div className="card p-4 rounded-md w-full transform border border-blue-400/20 shadow-md/30 shadow-blue-400 active:-translate-y-1 active:shadow-md/50 md:hover:-translate-y-1 md:hover:shadow-md/50 duration-200">
               <div className='flex gap-5'>
                 <IoCallOutline className='w-6 h-6 text-blue-400' />
                 +8275671462
@@ -43,7 +43,7 @@ const Contact = () => {
                   <button
                    suppressHydrationWarning={true}
                     type="submit"
-                    className="bg-blue-400 p-2.5 w-full rounded hover:bg-blue-300 cursor-pointer"
+                    className="bg-blue-400 p-2.5 w-full rounded active:bg-blue-300 md:hover:bg-blue-300 cursor-pointer"
                   >
                     Send
                   </button>

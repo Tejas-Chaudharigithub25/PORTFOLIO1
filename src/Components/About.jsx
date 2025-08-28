@@ -42,7 +42,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center gap-5 text-center mb-5" data-aos="fade-up">
-          <Image className='rounded-full shadow-sm hover:scale-105 hover:shadow-md/80 hover:border-4 hover:border-blue-400 shadow-blue-400 duration-200' src={Photo} width={230} height={230} alt='about' />
+          <Image className='rounded-full shadow-sm active:scale-105 active:shadow-md/80 active:border-4 md:hover:scale-105 md:hover:shadow-md/80 md:hover:border-4 hover:border-blue-400 shadow-blue-400 duration-300' src={Photo} width={230} height={230} alt='about' />
           <p className='md:mx-50 text-lg'>I'm a Tejas Chaudhari passionate about Web Development Profession. With a focus on PHP and MERN, I specialize in building projects that are both functional and impactful.</p>
         </div>
 
@@ -88,8 +88,8 @@ const About = () => {
               const Icon = iconMap[skill.img];
 
               return (
-                <div key={skill.id} className="group flex items-center gap-2 px-3 py-1 rounded-2xl text-sm shadow-sm/50 shadow-blue-400 hover:shadow-md transform hover:bg-[#0f98f6] hover:text-black hover:border-0 duration-100 bg-gradient-to-t from-blue-500/5">
-                  <div className="w-0 h-0 overflow-hidden group-hover:w-5 group-hover:h-5 transition-all duration-200">
+                <div key={skill.id} className="group flex items-center gap-2 px-3 py-1 rounded-2xl text-sm shadow-sm/50 shadow-blue-400 active:shadow-md active:bg-[#0f98f6] active:text-black md:hover:shadow-md transform md:hover:bg-[#0f98f6] md:hover:text-black hover:border-0 duration-100 bg-gradient-to-t from-blue-500/5">
+                  <div className="w-0 h-0 overflow-hidden group-active:w-5 group-active:h-5 md:group-hover:w-5 md:group-hover:h-5 transition-all duration-300">
                     {Icon && <Icon className="w-5 h-5 text-black" />}
                   </div>
                   <span className='font-bold'>{skill.name}</span>

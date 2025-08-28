@@ -14,14 +14,14 @@ const HeroSection = () => {
             <div className="flex flex-wrap justify-evenly items-center md:px-30 pt-30 pb-10 bg-blue-500/5 overflow-x-hidden">
                 <div className="second flex justify-center items-center bg-cover md:order-2" data-aos="fade-right">
                     <Image src={Blob} width={400} height={500} alt="Hero section background" className="object-cover z-0 relative w-80 md:w-100" />
-                    <Image src={Photo} width={230} height={100} alt="user image" className="absolute focus:scale-110 shadow-xl focus:shadow-black/60 duration-200 z-10 w-50 md:w-60 rounded-full border-8 border-blue-500" />
+                    <Image src={Photo} width={230} height={100} alt="user image" className="absolute active:scale-110 active:shadow-black/60 md:hover:scale-110 shadow-xl md:hover:shadow-black/60 duration-200 z-10 w-50 md:w-60 rounded-full border-8 border-blue-500" />
                 </div>
-                <div className="first flex flex-col justify-center gap-4 md:order-1 m-10" data-aos="fade-left">
-                    <div className="text-5xl font-bold bg-gradient-to-r from-blue-500 to-blue-100 bg-clip-text text-transparent hover:to-blue-700 hover:from-blue-300 transition duration-150">
+                <div className="first flex flex-col justify-center items-center md:items-start gap-4 md:order-1 m-10" data-aos="fade-left">
+                    <div className="text-5xl font-bold bg-gradient-to-r from-blue-500 to-blue-100 bg-clip-text text-transparent active:to-blue-700 active:from-blue-300 md:hover:to-blue-700 md:hover:from-blue-300 transition duration-300">
                         Tejas Chaudhari
                     </div>
                     <p className='ps-1 text-xl'>A full-stack developer passionate about building scalable and efficient applications.</p>
-                    <button onClick={handleModal} className='bg-gradient-to-r from-blue-500 to-blue-400 ms-1 py-2 px-7 w-fit rounded cursor-pointer hover:shadow-sm hover:scale-105 duration-200 shadow-blue-300 hover:to-blue-500 hover:from-blue-400 transition' suppressHydrationWarning={true}>View Resume</button>
+                    <button onClick={handleModal} className='bg-gradient-to-r from-blue-500 to-blue-400 ms-1 py-2 px-7 w-fit rounded cursor-pointer hover:shadow-sm hover:scale-105 duration-700 md:duration-150 shadow-blue-300 hover:to-blue-500 hover:from-blue-400 transition' suppressHydrationWarning={true}>View Resume</button>
                 </div>
             </div>
             {/* Modal */}
