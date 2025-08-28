@@ -11,7 +11,7 @@ const HeroSection = () => {
     }
     return (
         <>
-            <div className="flex flex-wrap justify-evenly items-center md:px-30 pt-30 pb-10 bg-blue-500/5 overflow-x-hidden">
+            <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center md:px-30 pt-30 pb-10 bg-blue-500/5 overflow-x-hidden">
                 <div className="second flex justify-center items-center bg-cover md:order-2" data-aos="fade-right">
                     <Image src={Blob} width={400} height={500} alt="Hero section background" className="object-cover z-0 relative w-80 md:w-100" />
                     <Image src={Photo} width={230} height={100} alt="user image" className="absolute active:scale-110 active:shadow-black/60 md:hover:scale-110 shadow-xl md:hover:shadow-black/60 duration-200 z-10 w-50 md:w-60 rounded-full border-8 border-blue-500" />

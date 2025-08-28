@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <div className="contact flex flex-col items-center py-10 mx-5" id='contact'>
         <h2 className='flex justify-center items-center text-center text-3xl mb-5 w-fit hover:w-50 border-b-4 border-b-blue-500 font-bold'>Connect</h2>
-        <div className="flex flex-wrap justify-evenly gap-5 w-full" data-aos="fade-up">
+        <div className="flex flex-wrap md:flex-nowrap justify-evenly gap-5 w-full" data-aos="fade-up">
           <div className="first flex flex-col gap-4 items-start my-2 md:p-2 w-140">
             <div className="card p-4 rounded-md w-full transform border border-blue-400/20 shadow-md/30 shadow-blue-400 active:-translate-y-1 active:shadow-md/50 md:hover:-translate-y-1 md:hover:shadow-md/50 duration-300">
               <div className='flex gap-5'>

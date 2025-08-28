@@ -38,7 +38,7 @@ const AchievEx = () => {
                                             <div className="year flex items-center text-sm h-6 bg-gray-500 px-2 rounded-2xl text-wrap">{certi.year}</div>
                                         </div>
                                         <div className="desc flex my-1">{certi.desc && certi.desc.length > 5 ? certi.desc.slice(0, 70) + '...' : certi.desc}</div>
-                                        <button onClick={(e) => handleModal(certi)} className='md:opacity-0 group-hover:opacity-100 bg-blue-400 text-sm px-3 py-1 rounded-2xl absolute bottom-0 right-0 duration-200 cursor-pointer'>View</button>
+                                        <button onClick={(e) => handleModal(certi)} className='lg:opacity-0 group-hover:opacity-100 bg-blue-400 text-sm px-3 py-1 rounded-2xl absolute bottom-0 right-0 duration-200 cursor-pointer'>View</button>
                                     </div>
                                 </div>
                             )
@@ -60,7 +60,7 @@ const AchievEx = () => {
                                                 <div className="year flex items-center text-sm h-6 bg-gray-500 px-2 rounded-2xl">{intern.year}</div>
                                             </div>
                                             <div className="desc flex my-1">{intern.desc && intern.desc.length > 5 ? intern.desc.slice(0, 70) + '...' : intern.desc}</div>
-                                            <button onClick={(e) => handleModal(intern)} className='md:opacity-0 group-hover:md:-100 bg-blue-400 text-sm px-3 py-1 rounded-2xl absolute bottom-0 right-0 duration-200 cursor-pointer'>View</button>
+                                            <button onClick={(e) => handleModal(intern)} className='lg:opacity-0 group-hover:md:opacity-100 bg-blue-400 text-sm px-3 py-1 rounded-2xl absolute bottom-0 right-0 duration-200 cursor-pointer'>View</button>
                                         </div>
                                     </div>
                                 </div>
@@ -82,7 +82,7 @@ const AchievEx = () => {
                                             <div className="year flex items-center text-sm h-6 bg-gray-500 px-2 rounded-2xl text-wrap">{hcktn.year}</div>
                                         </div>
                                         <div className="desc flex my-1">{hcktn.desc && hcktn.desc.length > 5 ? hcktn.desc.slice(0, 70) + '...' : hcktn.desc}</div>
-                                        <button onClick={(e) => handleModal(hcktn)} className='md:opacity-0 group-hover:opacity-100 bg-blue-400 text-sm px-3 py-1 rounded-2xl absolute bottom-0 right-0 duration-200 cursor-pointer'>View</button>
+                                        <button onClick={(e) => handleModal(hcktn)} className='lg:opacity-0 group-hover:opacity-100 bg-blue-400 text-sm px-3 py-1 rounded-2xl absolute bottom-0 right-0 duration-200 cursor-pointer'>View</button>
                                     </div>
                                 </div>
                             )

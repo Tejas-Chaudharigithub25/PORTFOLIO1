@@ -16,7 +16,7 @@ const Header = () => {
   }
   return (
     <>
-      <div className={`flex fixed justify-between items-center backdrop-blur-sm bg-black/45 shadow-lg/20 shadow-blue-400 p-3 py-4.5 w-full sm:px-40 z-50 ${toggle ? 'inline-block' : 'flex'} md:${toggle ? 'flex' : 'flex'}`} >
+      <div className={`flex fixed justify-between items-center backdrop-blur-sm bg-black/45 shadow-lg/20 shadow-blue-400 p-3 py-4.5 w-full sm:px-10 xl:px-40 z-50 ${toggle ? 'inline-block' : 'flex'} md:${toggle ? 'flex' : 'flex'}`} >
         <div className="logo flex gap-3">
         <Image src={'/favicon.png'} width={35} height={35} alt='logo' className='hover:shadow-sm hover:shadow-blue-300 rounded-full'/>
           <p className='flex justify-center items-center text-3xl font-bold bg-gradient-to-r active:from-blue-200 active:to-blue-500 from-blue-500 to-blue-200 bg-clip-text text-transparent cursor-pointer'>Tejas Chaudhari</p>

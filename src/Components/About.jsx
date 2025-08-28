@@ -51,7 +51,7 @@ const About = () => {
           <div className="title flex w-fit text-2xl font-bold mb-3 border-b-3 border-b-blue-400">
             Education
           </div>
-          <div className="education-card flex flex-wrap gap-3 justify-center">
+          <div className="education-card flex flex-wrap md:flex-nowrap gap-3 justify-center">
             {allApiData?.education.map((degree) => {
               return (
                 <div
