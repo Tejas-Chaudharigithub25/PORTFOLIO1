@@ -14,7 +14,7 @@ const HeroSection = () => {
             <div className="flex flex-wrap justify-evenly items-center md:px-30 pt-30 pb-10 bg-blue-500/5 overflow-x-hidden">
                 <div className="second flex justify-center items-center bg-cover md:order-2" data-aos="fade-right">
                     <Image src={Blob} width={400} height={500} alt="Hero section background" className="object-cover z-0 relative w-80 md:w-100" />
-                    <Image src={Photo} width={230} height={100} alt="user image" className="absolute hover:scale-110 shadow-xl hover:shadow-black/60 duration-200 z-10 w-50 md:w-60 rounded-full border-8 border-blue-500" />
+                    <Image src={Photo} width={230} height={100} alt="user image" className="absolute focus:scale-110 shadow-xl focus:shadow-black/60 duration-200 z-10 w-50 md:w-60 rounded-full border-8 border-blue-500" />
                 </div>
                 <div className="first flex flex-col justify-center gap-4 md:order-1 m-10" data-aos="fade-left">
                     <div className="text-5xl font-bold bg-gradient-to-r from-blue-500 to-blue-100 bg-clip-text text-transparent hover:to-blue-700 hover:from-blue-300 transition duration-150">
