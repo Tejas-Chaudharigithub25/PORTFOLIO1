@@ -25,22 +25,22 @@ const Header = () => {
           <CgMenuRight className='text-3xl font-bold cursor-pointer absolute right-4 top-3 md:hidden' onClick={toggleNav} />
         }
         <div className={`list space-y-1 space-x-3 md:space-y-0 mt-5 md:mt-0 md:flex w-full md:w-fit justify-center items-center hidden ${toggle ? 'inline-block' : 'hidden'}`}>
-          <Link href="#home" className='flex justify-end text-center'>
+          <Link href="#home" className='flex justify-end text-center text-white'>
             <p className='bg-gradient-to-r active:from-blue-500 active:to-blue-400 md:hover:from-blue-500  md:hover:to-blue-400 px-2 py-0.5 rounded-2xl'>Home</p>
           </Link>
-          <Link href="#about" className='flex justify-end text-center'>
+          <Link href="#about" className='flex justify-end text-center text-white'>
             <p className='bg-gradient-to-r active:from-blue-500 active:to-blue-400 md:hover:from-blue-500 md:hover:to-blue-400 px-2 rounded-2xl'>About</p>
           </Link>
-          <Link href="#A&E" className='flex justify-end text-center'>
+          <Link href="#A&E" className='flex justify-end text-center text-white'>
             <p className='bg-gradient-to-r active:from-blue-500 active:to-blue-400 md:hover:from-blue-500 md:hover:to-blue-400 px-2 rounded-2xl'>AchieveExperience</p>
           </Link>
-          <Link href="#projects" className='flex justify-end text-center'>
+          <Link href="#projects" className='flex justify-end text-center text-white'>
             <p className='bg-gradient-to-r active:from-blue-500 active:to-blue-400 md:hover:from-blue-500 md:hover:to-blue-400 px-2 rounded-2xl'>Projects</p>
           </Link>
-          <Link href="#contact" className='flex justify-end text-center'>
+          <Link href="#contact" className='flex justify-end text-center text-white'>
             <p className='bg-gradient-to-r active:from-blue-500 active:to-blue-400 md:hover:from-blue-500  md:hover:to-blue-400 px-2 rounded-2xl'>Connect</p>
           </Link>
-          <Link href="" className='flex justify-end text-center'>
+          <Link href="" className='flex justify-end text-center text-white'>
             <button onClick={handleModal} className='bg-gradient-to-r from-blue-500 active:from-blue-500 active:to-blue-400 to-blue-400 rounded text-sm  md:hover:to-blue-500  md:hover:from-blue-400 transition duration-300 mx-2 px-4 py-1.5 cursor-pointer' suppressHydrationWarning={true}>Resume</button>
           </Link>
         </div>

@@ -20,10 +20,10 @@ const AchievEx = () => {
         <>
             <div className="achievEx flex flex-col justify-center items-center my-10 mx-8 md:mx-20" id='A&E'>
                 <div className="title flex justify-center items-center w-full gap-2 my-5">
-                    <p className='flex justify-center font-bold text-3xl text-center w-fit md:hover:w-110 hover:w-full border-b-4 mx-8 border-b-[#0f98f6]'>Achievement & Experience</p>
+                    <p className='flex justify-center font-bold text-3xl text-center text-white w-fit md:hover:w-110 hover:w-full border-b-4 mx-8 border-b-[#0f98f6]'>Achievement & Experience</p>
                 </div>
                 <div className="flex flex-wrap justify-center w-full gap-3">
-                    <div className="Certificates flex flex-col gap-y-[7px] mt-5 mb-10">
+                    <div className="Certificates flex flex-col gap-y-[7px] mt-5 mb-10 text-white">
                         <div className="title flex text-xl font-bold border-l-4 border-l-blue-400 mb-5.5">
                             <span className='ms-3'>Certificates</span>
                         </div>
@@ -45,7 +45,7 @@ const AchievEx = () => {
                         })
                         }
                     </div>
-                    <div className="Internship flex flex-col mt-5 mb-10">
+                    <div className="Internship flex flex-col mt-5 mb-10 text-white">
                         <div className="title flex text-xl font-bold border-l-4 border-l-blue-400 mb-5">
                             <span className='ms-3'>Internship</span>
                         </div>
@@ -67,7 +67,7 @@ const AchievEx = () => {
                             )
                         })}
                     </div>
-                    <div className="Hackethons flex flex-col gap-y-[7px] mt-5 mb-10">
+                    <div className="Hackethons flex flex-col gap-y-[7px] mt-5 mb-10 text-white">
                         <div className="title flex text-xl font-bold border-l-4 border-l-blue-400 mb-5.5">
                             <span className='ms-3'>Hackethons</span>
                         </div>

@@ -5,7 +5,7 @@ import { IoCallOutline } from "react-icons/io5";
 const Contact = () => {
   return (
     <>
-      <div className="contact flex flex-col items-center py-10 mx-5" id='contact'>
+      <div className="contact flex flex-col items-center py-10 mx-5 text-white" id='contact'>
         <h2 className='flex justify-center items-center text-center text-3xl mb-5 w-fit hover:w-50 border-b-4 border-b-blue-500 font-bold'>Connect</h2>
         <div className="flex flex-wrap md:flex-nowrap justify-evenly gap-5 w-full" data-aos="fade-up">
           <div className="first flex flex-col gap-4 items-start my-2 md:p-2 w-140">

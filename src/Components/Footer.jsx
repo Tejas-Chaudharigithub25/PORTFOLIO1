@@ -6,7 +6,7 @@ import { TbBrandGmail } from "react-icons/tb";
 export const Footer = () => {
     return (
         <>
-            <div className="footer bg-blue-500/10 flex flex-col pt-4 overflow-hidden">
+            <div className="footer bg-[#0d1623] flex flex-col pt-4 overflow-hidden text-white">
                 <div className="footer-1 flex flex-col gap-4 items-center">
                     <div className='flex flex-col items-center justify-center my-5 mx-2'>
                         <p className='text-center text-3xl my-3' data-aos="fade-left">Want to Connect with me?</p>

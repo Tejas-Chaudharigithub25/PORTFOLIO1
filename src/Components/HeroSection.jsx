@@ -20,7 +20,7 @@ const HeroSection = () => {
                     <div className="text-5xl text-center font-bold bg-gradient-to-r from-blue-500 to-blue-100 bg-clip-text text-transparent active:to-blue-700 active:from-blue-300 md:hover:to-blue-700 md:hover:from-blue-300 transition duration-300">
                         Tejas Chaudhari
                     </div>
-                    <p className='ps-1 text-xl text-center'>A full-stack developer passionate about building scalable and efficient applications.</p>
+                    <p className='ps-1 text-xl text-center text-white'>A full-stack developer passionate about building scalable and efficient applications.</p>
                     <button onClick={handleModal} className='bg-gradient-to-r from-blue-500 to-blue-400 ms-1 py-2 px-7 w-fit rounded cursor-pointer hover:shadow-sm hover:scale-105 duration-700 md:duration-150 shadow-blue-300 hover:to-blue-500 hover:from-blue-400 transition' suppressHydrationWarning={true}>View Resume</button>
                 </div>
             </div>

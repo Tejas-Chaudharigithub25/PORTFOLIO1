@@ -90,7 +90,7 @@ const ProjectCarousel = () => {
             : {};
 
     return (
-        <div className="projects flex flex-col md:m-10" id='projects'>
+        <div className="projects flex flex-col md:m-10 text-white" id='projects'>
             <div className="flex justify-center w-full">
                 <h1 className='text-center text-3xl font-bold border-b-4 w-fit hover:w-40 relative border-b-blue-500 my-5'>Projects</h1>
             </div>
