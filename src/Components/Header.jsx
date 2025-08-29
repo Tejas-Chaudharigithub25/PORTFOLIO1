@@ -20,10 +20,10 @@ const Header = () => {
         <div className="logo flex gap-3">
           <Image src={'/favicon.png'} width={35} height={35} alt='logo' className='hover:shadow-sm hover:shadow-blue-300 rounded-full' />
           <p className='flex justify-center items-center text-3xl font-bold bg-gradient-to-r active:from-blue-200 active:to-blue-500 from-blue-500 to-blue-200 bg-clip-text text-transparent cursor-pointer'>Tejas Chaudhari</p>
-        </div>
         {!toggle ? <CgMenuRightAlt className='text-3xl text-white font-bold cursor-pointer absolute right-4 md:hidden' onClick={toggleNav} /> :
           <CgMenuRight className='text-3xl text-white font-bold cursor-pointer absolute right-4 md:hidden' onClick={toggleNav} />
         }
+        </div>
         <div className={`list space-y-1 space-x-3 md:space-y-0 mt-5 md:mt-0 md:flex w-full md:w-fit justify-center items-center hidden ${toggle ? 'inline-block' : 'hidden'}`}>
           <Link href="#home" className='flex justify-end text-center text-white'>
             <p className='bg-gradient-to-r active:from-blue-500 active:to-blue-400 md:hover:from-blue-500  md:hover:to-blue-400 px-2 py-0.5 rounded-2xl'>Home</p>
